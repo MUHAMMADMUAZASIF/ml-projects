@@ -1,0 +1,42 @@
+{
+  "15min": {
+    "MAE_mph": 1.305,
+    "RMSE_mph": 2.406,
+    "R2": 0.8888,
+    "baseline_persistence_MAE_mph": 1.835,
+    "congestion_accuracy": 0.9865,
+    "congestion_precision": 0.9032,
+    "congestion_recall": 0.775,
+    "congestion_f1": 0.8342,
+    "congested_share_of_test": 0.044,
+    "train_rows": 120680,
+    "test_rows": 40240
+  },
+  "30min": {
+    "MAE_mph": 1.538,
+    "RMSE_mph": 3.058,
+    "R2": 0.8206,
+    "baseline_persistence_MAE_mph": 2.719,
+    "congestion_accuracy": 0.9817,
+    "congestion_precision": 0.8791,
+    "congestion_recall": 0.6783,
+    "congestion_f1": 0.7658,
+    "congested_share_of_test": 0.044,
+    "train_rows": 120620,
+    "test_rows": 40180
+  },
+  "60min": {
+    "MAE_mph": 1.886,
+    "RMSE_mph": 3.859,
+    "R2": 0.7147,
+    "baseline_persistence_MAE_mph": 4.217,
+    "congestion_accuracy": 0.9796,
+    "congestion_precision": 0.8919,
+    "congestion_recall": 0.6111,
+    "congestion_f1": 0.7253,
+    "congested_share_of_test": 0.0442,
+    "train_rows": 120500,
+    "test_rows": 40060
+  },
+  "_model": "sklearn HistGradientBoosting (fallback)"
+}
